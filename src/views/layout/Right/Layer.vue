@@ -21,7 +21,6 @@
 					<component
 						:is="fetchComponent(element.componentInfo)"
 					></component>
-					<span>{{ element.componentConfig.attr.zIndex }}</span>
 				</div>
 			</template>
 		</draggable>
